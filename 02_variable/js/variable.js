@@ -24,7 +24,7 @@ console.log(itemName)
 console.log(price, quantity, discount)
 
 // TODO: 商品名を表示: itemName を代入
-document.getElementById("item-name").textContent
+document.getElementById("item-name").textContent = itemName
 
 // TODO: 価格を表示: price を代入
 document.getElementById("price").textContent
