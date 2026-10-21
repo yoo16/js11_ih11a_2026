@@ -14,9 +14,11 @@ let discount = 0.1
 console.log(itemName)
 
 // TODO: itemName に再代入
+itemName = "紅茶"
 
 // TODO: 商品名をコンソール表示: console.log(itemName)
 // clg
+console.log(itemName)
 
 // TODO: 価格, 個数, 割引 をコンソール表示: console.log(price, quantity, discount)
 
