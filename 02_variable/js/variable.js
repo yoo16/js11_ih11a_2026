@@ -10,6 +10,9 @@ let quantity = 2
 // TODO: 変数定義 割引「discount」: var または let で定義
 let discount = 0.1
 
+// clg で consoleLog を選択
+console.log(itemName)
+
 // TODO: itemName に再代入
 
 // TODO: 商品名をコンソール表示: console.log(itemName)
