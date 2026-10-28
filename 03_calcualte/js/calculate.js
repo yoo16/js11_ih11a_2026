@@ -35,6 +35,7 @@ taxWithoutPrice = totalPrice / (1 + TAX_RATE)
 taxWithoutPrice = taxWithoutPrice.toFixed(0)
 
 // TODO: 税額 = 合計金額 - 税抜き金額: tax
+tax = totalPrice - taxWithoutPrice
 
 
 // オーダーコード
