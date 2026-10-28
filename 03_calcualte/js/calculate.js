@@ -48,7 +48,7 @@ var orderCode;
 // 数値の計算になってしまう
 // orderCode = tableNo + orderNo
 // 文字の連結で orderCode を作成
-orderCode = tableNo + "-" + orderNo
+orderCode = tableNo + "-" + orderNo 
 
 
 // TODO: オーダーコード生成（テキスト連結） xx-xxxx 形式: バッククォートで囲む
