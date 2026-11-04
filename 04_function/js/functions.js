@@ -8,7 +8,7 @@
 let numberString = "0005";
 
 // TODO: 文字列を数値に変換: parseInt()
-let number;
+let number = parseInt(numberString)
 
 // TODO: 数値でないか調べる: isNaN()
 let nan1;    // "コーヒー"（文字列）
