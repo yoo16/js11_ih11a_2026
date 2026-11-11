@@ -52,7 +52,7 @@ function calcRoomFee(people, pricePer30min, minutes) {
 // TODO: 引数 rate に既定値 0.1 を設定する
 function applyDiscount(price, rate) {
     // TODO: 割引後の金額 = price * (1 - rate) を Math.floor() で切り捨てて return する
-    return 0;
+    return Math.floor(price * (1 - rate));
 }
 
 /**
@@ -64,7 +64,7 @@ function applyDiscount(price, rate) {
  */
 function addTax(price) {
     // TODO: 税込金額 = price * (1 + TAX_RATE) を Math.floor() で切り捨てて return する
-    return 0;
+    return Math.floor(price * (1 + TAX_RATE));
 }
 
 /**
