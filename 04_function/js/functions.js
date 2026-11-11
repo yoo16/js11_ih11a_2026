@@ -93,8 +93,10 @@ function showTokyo() {
     document.getElementById("message").textContent += "東京"
 }
 
-
 // TODO: #message に「横浜」を追加する関数 showYokohama を定義: textContent +=
+function showYokohama() {
+    document.getElementById("message").textContent += "横浜"
+}
 
 // TODO: showTokyo をページの読み込み後に実行: window.onload = ...（( ) は付けない）
 
