@@ -88,6 +88,12 @@ document.getElementById("hello2").textContent = hello2("東京 太郎");
 // 実行のタイミング
 // ==============================
 // TODO: #message に「東京」を追加する関数 showTokyo を定義: textContent +=
+// fun と入力して function statement を選択
+function showTokyo() {
+    document.getElementById("message").textContent += "東京"
+}
+
+
 // TODO: #message に「横浜」を追加する関数 showYokohama を定義: textContent +=
 
 // TODO: showTokyo をページの読み込み後に実行: window.onload = ...（( ) は付けない）
