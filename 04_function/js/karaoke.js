@@ -90,7 +90,8 @@ function calcSubtotal(roomFee, drinkFee) {
  */
 function calcTotal(subtotal, isMember) {
     // TODO: 三項演算子で、会員なら applyDiscount() で割引、会員でなければ小計のまま: discounted
-    let discounted = isMember ? applyDiscount(subtotal) : subtotal;
+    let discounted = isMember ? applyDiscount(subtotal, 0.1) : subtotal;
+    console.log("Discounted price:", discounted);
 
     // TODO: discounted を addTax() で税込にして return する
     return addTax(discounted)
