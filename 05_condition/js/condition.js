@@ -48,6 +48,19 @@ let weekday = 4
 let trash = ""
 
 // TODO:weekday に応じて switch 文でゴミの種類を設定: Switch Statement
+switch (weekday) {
+    case 1:
+        trash = "燃えるゴミ";
+        break;
+
+    case 4:
+        trash = "燃えないゴミ";
+        break;
+
+    default:
+        break;
+}
+
 
 // ======================================
 // 結果を HTML に表示（id を指定して代入）
