@@ -24,6 +24,8 @@ result4 = (price >= 500)
 // TODO: If statement: money が price 以上 の時に "決済完了"
 if (money >= price) {
     message1 = "決済完了"
+} else {
+    message1 = "残高不足"
 }
 
 // If Else: 
